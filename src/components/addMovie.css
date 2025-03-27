@@ -1,0 +1,57 @@
+.add-movie-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .add-movie-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Matches the gap used in Dashboard.css for consistency */
+  }
+  
+  .add-movie-form input,
+  .add-movie-form select,
+  .add-movie-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd; /* Matches the border style from MovieCard.css */
+    border-radius: 4px; /* Matches the border-radius from Dashboard.css */
+    font-size: 1em;
+  }
+  
+  .add-movie-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px; /* Matches the gap used in Dashboard.css */
+  }
+  
+  .submit-button {
+    padding: 10px 20px; /* Matches the padding from add-movie-button in Dashboard.css */
+    background-color: #007bff; /* Matches the background color from add-movie-button in Dashboard.css */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Matches the border-radius from Dashboard.css */
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Matches the hover color from add-movie-button in Dashboard.css */
+  }
+  
+  .cancel-button {
+    padding: 10px 20px; /* Consistent with submit-button */
+    background-color: #dc3545; /* A red color for the cancel action, commonly used for destructive actions */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Matches the border-radius from Dashboard.css */
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333; /* A darker red for hover, following the pattern of darkening on hover */
+  }
